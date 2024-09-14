@@ -5,7 +5,6 @@
 }
 .nav-bar{
     background-color:rgb(43, 38, 38);
-    /* border-color: black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,7 +13,6 @@
     width: 100%;
     padding: 0 30px;
     margin-bottom: 20px;
-    /* border: 1px solid red; */
 }
 #italic{
     font-style: italic;
@@ -26,43 +24,21 @@ nav ul {
     list-style: none;
 }
 nav ul li{
-    /* padding: 20px; */
     margin: 0 20px;
 }
 
 
-/* .container{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
 
-/* } 
-/* .container .sided-card{
-    position:absolute;
-    top: 80px;
-    /* left: -20%; */
-    /* right: -0%; */
-    /* width: 25%;
-    padding: 20px 40px;
-    color: #ffff;
-    background-color: rgb(43, 38, 38);
-    height: 100vh;
-} */
-/* .container .sided-card p{
-    font-size: 18px;
-} */ 
 
 .container {
-    /* width: 80%; */
-    /* margin: 0 auto; */
+    margin: 0 30px;
     position: relative; 
     display: flex;
     justify-content: space-between;
 }
 
 .heading {
-    /* margin-bottom: 20px;  */
+    padding-top: 30px;
     padding-bottom: 90px;
 }
 .para{
@@ -70,7 +46,6 @@ nav ul li{
 }
 .sided-card {
     top: 20px;
-    /* width: 25%; */
     padding: 20px 20px;
     color: #ffff;
     background-color: rgb(43, 38, 38);
@@ -78,29 +53,23 @@ nav ul li{
     padding-top: 30px;
 }
 .card-container{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 25px;
-    margin-top: 100px;
-    border: 1px solid red;
-    margin: 10px;
-    
    
+    padding: 0;
+    /* border: 1px solid red; */  
 }
 
 .card {
-    /* padding: 20px; */
-   
-    /* margin: 20px; */
+    display: inline-block;
     border: 2px solid black;
-   
     width: 280px;
-    height: 180px;
-    /* height: 150px; */
-
-    
+    height: 180px; 
+    margin-right: 10px;
+    margin-bottom:20px ;
+   
 }
 .card-content h2{
     background-color: black;
@@ -108,8 +77,8 @@ nav ul li{
     padding: 10px 10px;
 }
 .card-content{
-    /* padding: 30px 30px; */
     line-height: 1;
+    
 }
 
 .card-content p{
